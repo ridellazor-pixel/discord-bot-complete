@@ -1,0 +1,26 @@
+{
+  "name": "discord-bot-complete",
+  "version": "1.0.0",
+  "description": "A complete, production-ready Discord bot with 60+ slash commands and modular command handler",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "slash-commands",
+    "discord.js"
+  ],
+  "author": "ridellazor-pixel",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
